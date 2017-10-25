@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="CSS/Reservation.css">
+</head>
+<body>
+
+<h1>Reservation</h1>
+<p>Le prix de la place est de 10 euros jusqu'à 21 ans et ensuite de 15 euros.</p>
+<p>Le prix de l'assurance annulation des de 20 euros quel que soit le nombre de voyageurs.</p>
+
+    <div class="tab">
+        <form method="POST">
+            <label for="destination">Destination</label>
+                <input type="text" name="destination" id="destination"/> <br/>
+
+            <label for="nbPassengers">Nombre de places</label>
+                <input type="number" name="nbPassengers" id="nbPassengers"/><br/>
+
+            <label for="insurrance">Assurance annulation</label>
+                <input type="checkbox" name="insurrance" id="insurrance"/><br/>
+
+            <input type="submit" name="Etape suivante"/>
+            <button type="reset" value="0"> Annuler la réservation</button>
+        </form>
+    </div>
+</body>
+</html>
